@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<classpath>
+	<classpathentry kind="src" path="src"/>
+	<classpathentry kind="con" path="org.eclipse.jdt.launching.JRE_CONTAINER"/>
+	<classpathentry kind="lib" path="F:/Testing_software/Selenium/Selenium Jar/selenium-java-2.45.0/selenium-2.45.0/selenium-java-2.45.0.jar"/>
+	<classpathentry kind="lib" path="F:/Testing_software/Selenium/Selenium Jar/selenium-java-2.45.0/selenium-2.45.0/selenium-java-2.45.0-srcs.jar"/>
+	<classpathentry kind="lib" path="F:/Testing_software/Selenium/Selenium Jar/selenium-server-standalone-2.45.0.jar"/>
+	<classpathentry kind="lib" path="lib/2captcha_api.jar"/>
+	<classpathentry kind="lib" path="lib/com.mysql.jdbc_5.1.5.jar"/>
+	<classpathentry kind="lib" path="lib/java-json.jar"/>
+	<classpathentry kind="lib" path="lib/log4j-1.2.17.jar"/>
+	<classpathentry kind="lib" path="lib/mail.jar"/>
+	<classpathentry kind="lib" path="lib/selenium-server-standalone-2.45.0.jar"/>
+	<classpathentry kind="lib" path="F:/Testing_software/extentreports-2.41.2.jar"/>
+	<classpathentry kind="lib" path="F:/Testing_software/poi-3.16-beta2/poi-3.16-beta2.jar"/>
+	<classpathentry kind="lib" path="F:/Testing_software/poi-3.16-beta2/poi-examples-3.16-beta2.jar"/>
+	<classpathentry kind="lib" path="F:/Testing_software/poi-3.16-beta2/poi-excelant-3.16-beta2.jar"/>
+	<classpathentry kind="lib" path="F:/Testing_software/poi-3.16-beta2/poi-ooxml-3.16-beta2.jar"/>
+	<classpathentry kind="lib" path="F:/Testing_software/poi-3.16-beta2/poi-ooxml-schemas-3.16-beta2.jar"/>
+	<classpathentry kind="lib" path="F:/Testing_software/poi-3.16-beta2/poi-scratchpad-3.16-beta2.jar"/>
+	<classpathentry kind="lib" path="F:/Testing_software/jsoup-1.8.3.jar"/>
+	<classpathentry kind="lib" path="F:/Testing_software/Java_Jars/selenium-htmlunit-driver-2.22.0.jar"/>
+	<classpathentry kind="output" path="bin"/>
+</classpath>

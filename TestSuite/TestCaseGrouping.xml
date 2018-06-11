@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+
+<suite name="Login Test suite"> 
+  <test verbose="2" name="Test case grouping">
+  
+  <groups>
+  <run>
+  <include name="smoke"/>
+  </run> 
+  </groups> 
+ 
+    <classes>
+      <class name="com.testng.demos.TestScript_Grouping"/>  
+    </classes>
+          
+  </test> <!-- Login test -->
+  
+</suite> <!-- Logins suite -->

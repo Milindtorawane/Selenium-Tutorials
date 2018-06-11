@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [MyTestSuite]">
+  <test name="First Test case(failed)">
+    <classes>
+      <class name="com.basic.MyFirefoxBrowser">
+        <methods>
+          <include name="OpenWithChrome"/>
+        </methods>
+      </class> <!-- com.basic.MyFirefoxBrowser -->
+    </classes>
+  </test> <!-- First Test case(failed) -->
+</suite> <!-- Failed suite [MyTestSuite] -->

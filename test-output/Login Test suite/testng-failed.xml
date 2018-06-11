@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [Login Test suite]">
+  <test name="Verification with valid credential(failed)">
+    <classes>
+      <class name="com.basic.MyAnnotations">
+        <methods>
+          <include name="MyBeforeMethod"/>
+          <include name="MyAfterMethod"/>
+        </methods>
+      </class> <!-- com.basic.MyAnnotations -->
+      <class name="com.basic.MyFirefoxBrowser">
+        <methods>
+          <include name="OpenWithChrome"/>
+          <include name="OpenWithIE"/>
+          <include name="OpenWithFirefox"/>
+        </methods>
+      </class> <!-- com.basic.MyFirefoxBrowser -->
+    </classes>
+  </test> <!-- Verification with valid credential(failed) -->
+</suite> <!-- Failed suite [Login Test suite] -->

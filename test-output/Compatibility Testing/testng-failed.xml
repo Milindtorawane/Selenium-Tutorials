@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [Compatibility Testing]">
+  <parameter name="browser" value="firefox"/>
+  <test name="Cross Browser Testing (failed)">
+    <parameter name="browser" value="firefox"/>
+    <classes>
+      <class name="com.testScripts.loginTestScript">
+        <methods>
+          <include name="OpenBrowser"/>
+          <include name="LaunchBrowser"/>
+        </methods>
+      </class> <!-- com.testScripts.loginTestScript -->
+    </classes>
+  </test> <!-- Cross Browser Testing (failed) -->
+</suite> <!-- Failed suite [Compatibility Testing] -->

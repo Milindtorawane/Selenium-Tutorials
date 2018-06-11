@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+
+<suite name="Login Test suite">
+  <test verbose="2" name="Verification with valid credential">
+  
+    <classes>
+      <class name="com.basic.MyFirefoxBrowser"/>  
+    </classes>
+          
+  </test> <!-- Login test -->
+  
+  
+  <test verbose="2" name="Verification with Invalid credential">
+  
+    <classes>
+      <class name="com.basic.MyAnnotations"/>  
+    </classes>
+          
+  </test> <!-- Login test -->
+  
+</suite> <!-- Logins suite -->

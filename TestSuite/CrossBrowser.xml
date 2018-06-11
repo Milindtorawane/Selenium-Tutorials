@@ -1,0 +1,16 @@
+
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd" >
+  
+<suite name="Compatibility Testing" verbose="1" >
+  <test name="Cross Browser Testing " >
+   <parameter name="browser"  value="firefox"/>
+    <classes>
+   
+    
+       <class name="com.testScripts.loginTestScript" />
+       
+    </classes>
+  </test>
+ 
+  
+</suite>

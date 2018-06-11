@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+
+<suite name="Executin multiclass">
+<test verbose="2" name="Test case executin with multiclass">
+
+<classes>
+<class name="com.testng.demos.SingleClassTest"/>
+<class name="com.testng.demos.TestScript_Grouping"/>
+
+</classes>
+
+</test> <!-- Login test -->
+</suite> <!-- Logins suite -->
