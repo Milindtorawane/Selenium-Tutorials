@@ -1,4 +1,4 @@
-package com.testScripts;
+package com.selenium.testscripts;
 
 
 import org.openqa.selenium.WebDriver;

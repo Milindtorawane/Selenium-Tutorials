@@ -1,4 +1,4 @@
-package com.Utiliy;
+package com.selenium.utility;
 
 public class Constant {
 	
