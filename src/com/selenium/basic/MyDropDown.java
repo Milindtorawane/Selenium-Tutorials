@@ -1,5 +1,6 @@
 package com.selenium.basic;
 
+
 import org.openqa.selenium.By;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.WebElement;
@@ -18,7 +19,9 @@ public class MyDropDown {
 	public void LaunchBrowser()
 	
 	{
-		System.setProperty("webdriver.firefox.bin", "D:\\Old_Browser\\firefox.exe");
+		//System.setProperty("webdriver.firefox.bin", "D:\\Old_Browser\\firefox.exe");
+		
+		System.setProperty("webdriver.gecko.driver", "drivers/geckodriver.exe");
 		WebDriver driver = new  FirefoxDriver();
 		driver.get("http://demos.telerik.com/kendo-ui/dropdownlist/index");
 		

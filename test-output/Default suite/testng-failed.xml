@@ -3,11 +3,11 @@
 <suite name="Failed suite [Default suite]">
   <test name="Default test(failed)">
     <classes>
-      <class name="com.selenium.AdvancedProgramm.MyPropertiesFile">
+      <class name="com.selenium.basic.MyDropDown">
         <methods>
-          <include name="method"/>
+          <include name="LaunchBrowser"/>
         </methods>
-      </class> <!-- com.selenium.AdvancedProgramm.MyPropertiesFile -->
+      </class> <!-- com.selenium.basic.MyDropDown -->
     </classes>
   </test> <!-- Default test(failed) -->
 </suite> <!-- Failed suite [Default suite] -->
