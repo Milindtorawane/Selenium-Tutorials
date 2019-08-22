@@ -19,7 +19,7 @@ public class ParallelTestCases {
 	@Test
 	public void method2(){
 		
-		System.out.println("This is from method 2"+Thread.currentThread().getId());
+		System.out.println("This is from method 2>>"+Thread.currentThread().getId());
 		
 	}
 

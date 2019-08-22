@@ -1,13 +1,13 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
 
-<suite name="Parallel Test case execution" parallel="methods" thread-count="5"> 
+<suite name="Parallel Tes suite" parallel="methods" thread-count="5"> 
 
 
-  <test verbose="2" name="Executing test cases in parallel">
+  <test verbose="2" name="TestName">
   
     <classes>
-      <class name="com.testng.demos.ParallelTestCases"/>  
+      <class name="com.selenium.testng.ParallelTestCases"/>  
     </classes>
           
   </test> <!-- Login test -->

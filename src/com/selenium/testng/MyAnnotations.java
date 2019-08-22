@@ -1,68 +1,33 @@
 package com.selenium.testng;
 
-import org.openqa.selenium.WebDriver;
-import org.testng.Assert;
-import org.testng.annotations.AfterMethod;
-import org.testng.annotations.AfterSuite;
-import org.testng.annotations.BeforeMethod;
+import org.testng.annotations.BeforeSuite;
 import org.testng.annotations.Test;
-import com.relevantcodes.extentreports.ExtentReports;
-import com.relevantcodes.extentreports.ExtentTest;
-import com.relevantcodes.extentreports.LogStatus;
 
 public class MyAnnotations {
-
-	
-	ExtentReports report;
-	ExtentTest logger;
-	WebDriver driver;
-	String Reportpath="D:\\MyReport1.html";
 	
 	
-	@BeforeMethod
-	public void MyBeforeMethod()
-	
-	{   
-		
-		report=new ExtentReports(Reportpath);
-	    logger=report.startTest("Test suite with positive scenarios");
-		System.out.println("This is in before method ");
-		
-	}
-	
-	@AfterMethod
-	public void MyAfterMethod(){
-		
-		logger.log(LogStatus.INFO, "Now in after method");
-		System.out.println("This is in after method ");
-		driver.close();
-
-	}
-		
-	@AfterSuite
-	public void MyAfteSuite(){
-		
-		logger.log(LogStatus.INFO, "Now in AfterSuite");
-		System.out.println("I am in afterSuite ");
-		report.flush();
-		report.endTest(logger);
-		report.close();
-	}
-	
-	
-	
-	@Test
-	public void TestMethod1()
+	@BeforeSuite
+	public void method1()
 	{
-   logger.log(LogStatus.INFO, "Now in Method");
-   System.out.println("This is in test method 1");
-   Assert.assertTrue(true);
-   logger.log(LogStatus.PASS,"Verification is succedd");
-  
-   
-		
+		System.out.println("1.Executing test case from before suite ");
+
 	}
 	
 	
+	@Test (priority=8)
+	public void method2()
+	{
+		System.out.println("2.Executing test case from single class Test");
+
+	}
 	
+
+	@Test(priority=5)
+	public void method3()
+	{
+		System.out.println("3.Executing test case from single class Test");
+
+	}
+	
+
 }
